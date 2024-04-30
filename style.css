@@ -40,6 +40,10 @@ body {
 .image {
   margin: 0 auto;
 }
+.image:hover{
+  transition: 0.8s;
+  transform: translateX(5px);
+}
 
 .subtitle {
   display: flex;
@@ -85,6 +89,26 @@ body {
   font-size: 14px;
 }
 
+.animated-text {
+    
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: .30em solid #f4d04e; 
+    width: 0;
+    animation: typing 5s steps(100) infinite;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+      color: black;
+    }
+    to {
+      width: 100%;
+      color: #f4d04e;
+    }
+  }
+
 @media screen and (max-width: 768px) {
   .card {
     width: 100%;
@@ -99,7 +123,7 @@ body {
     width: 30%;
   }
   .title{
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .image svg {
