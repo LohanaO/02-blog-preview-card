@@ -1,4 +1,4 @@
-## RETO N° 2 100 DAYS OF PROYECT 
+## RETO N° 2 100 DAYS OF PROYECTS 
 
 ### 02-blog-preview-card
 
